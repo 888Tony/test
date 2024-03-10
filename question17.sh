@@ -39,3 +39,10 @@ git add dir3/
 
 #commit changes in branch2
 git commit -m "commit chnages to branch2"
+
+#checkout main and make a copy of bar
+git checkout main
+cp dir3/bar dir3/bar_copy
+git add dir3/bar_copy
+git commit -m "Duplicate bar to bar_copy in dir3"
+
