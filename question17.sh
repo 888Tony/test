@@ -29,7 +29,7 @@ git mv dir1/dir2/foo dir1/dir2/foo_modified
 git mv dir3 dir1/
 
 #remove dir3 bar file
-git rm dir1/dir3/bar
+git rm -f dir1/dir3/bar
 
 #add files
 git add *
