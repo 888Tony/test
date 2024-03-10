@@ -28,11 +28,13 @@ git mv dir1/dir2/foo dir1/dir2/foo_modified
 #move dir3 to be under dir1
 git mv dir3 dir1/
 
+#remove dir3 bar file
+git rm dir1/dir3/bar
+
 #add newfile2
 touch dir1/dir3/newfile2
 
-#remove dir3 bar file
-git rm dir1/dir3/bar
+
 
 
 #add files
