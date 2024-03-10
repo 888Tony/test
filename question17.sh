@@ -35,7 +35,7 @@ git rm dir3/bar
 git mv dir3 dir1/
 
 #add files
-git add dir3/
+git add *
 
 #commit changes in branch2
 git commit -m "commit chnages to branch2"
