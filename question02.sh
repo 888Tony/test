@@ -1,1 +1,2 @@
+cd test
 git init
