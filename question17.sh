@@ -31,6 +31,9 @@ git mv dir3 dir1/
 #remove dir3 bar file
 git rm dir1/dir3/bar
 
+#commit to removing a file
+git commit -m "Remove the file forcefully"
+
 #add newfile2
 touch dir1/dir3/newfile2
 
