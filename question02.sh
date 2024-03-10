@@ -1,3 +1,3 @@
-/workspaces/ $ mkdir htt
-/workspaces/ $ cd htt
-/workspaces/htt/ $ git init
+mkdir dir2
+cd dir2
+git init
