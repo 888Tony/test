@@ -25,14 +25,14 @@ git checkout branch2
 #rename foo
 git mv dir1/dir2/foo dir1/dir2/foo_modified
 
-#add newfile2
-touch dir3/newfile2
-
 #remove dir3 bar file
 git rm dir3/bar
 
 #move dir3 to be under dir1
 git mv dir3 dir1/
+
+#add newfile2
+touch dir1/dir3/newfile2
 
 #add files
 git add dir3/
