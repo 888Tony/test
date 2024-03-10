@@ -25,17 +25,17 @@ git checkout branch2
 #rename foo
 git mv dir1/dir2/foo dir1/dir2/foo_modified
 
+#add newfile2
+touch dir3/newfile2
+
 #remove dir3 bar file
 git rm dir3/bar
 
 #move dir3 to be under dir1
 git mv dir3 dir1/
 
-#add newfile2
-touch dir1/dir3/newfile2
-
 #add files
-git add *
+git add dir3/
 
 #commit changes in branch2
 git commit -m "commit chnages to branch2"
@@ -45,4 +45,3 @@ git checkout main
 cp dir3/bar dir3/bar_copy
 git add dir3/bar_copy
 git commit -m "Duplicate bar to bar_copy in dir3"
-
