@@ -25,11 +25,18 @@ git checkout branch2
 #rename foo
 git mv dir1/dir2/foo dir1/dir2/foo_modified
 
+
 #move dir3 to be under dir1
 git mv dir3 dir1/
 
 #remove dir3 bar file
 git rm dir1/dir3/bar
+
+#add files
+git add *
+
+#commit changes in branch2
+git commit -m "commit chnages to branch2"
 
 #commit to removing a file
 git commit -m "Remove the bar file"
